@@ -1,27 +1,27 @@
-# def saludar():
-#     print('Hola')
+def saludar():
+    print('Hola')
 
-# saludar()
+saludar()
 
-# def saludar_persona(nombre):
-#     print('Hola ' + nombre)
+def saludar_persona(nombre):
+    print('Hola ' + nombre)
 
-# saludar_persona('Pepe')
+saludar_persona('Pepe')
 
-# def multiplicar(num1,num2):
-#     return num1 * num2
+def multiplicar(num1,num2):
+    return num1 * num2
 
-# resultado = multiplicar(5,10)
-# print(resultado)
+resultado = multiplicar(5,10)
+print(resultado)
 
-# def dividir(num1,num2):
-#     total= num1 / num2
-#     return total
+def dividir(num1,num2):
+    total= num1 / num2
+    return total
 
-# resultado= dividir(200,5)
-# print(resultado)
+resultado= dividir(200,5)
+print(resultado)
 
-#FUNCIONES DINÁMICAS
+FUNCIONES DINÁMICAS
 
 def chequear_3_cifras(numero):
     return numero in range(100,1000)
