@@ -5,7 +5,7 @@ print(menor,mayor)
 lista = 58,76,48,35
 print(min(lista)) #se puede hacer con cualquier coleción: tuplas, diccionarios
 
-nombre = ['Carlos','Patricia','Juan','Alicia']
+nombre = ['Carlos','Patricia','Juan','Alicia', 'alicia']
 print(min(nombre)) #Busca la primera en orden alfabético pero busca primero en las mayúsculas (ASCII)
 
 dic = {'c1': 45, 'c2':11}

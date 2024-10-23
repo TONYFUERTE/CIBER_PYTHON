@@ -31,7 +31,7 @@ cliente = {'nombre': 'Manolo',
 pelicula = {'titulo': 'Matrix',
             'ficha':{'protagonista': 'Keano Reave',
                      'director': 'Lana y Lilly Wachowski'}}
-elementos = [cliente, pelicula, 'libro']
+elementos = [cliente, pelicula, 'libro',55]
 
 for e in elementos: 
     match e:
