@@ -26,8 +26,7 @@
 # def chequear_3_cifras(numero):
 #     return numero in range(100,1000)
 # valor = int(input('Introduzca Valor de tres cifras: '))
-# resultado = chequear_3_cifras(valor)
-# print(resultado)
+# print(chequear_3_cifras(valor))
 
 
 # def chequear_v2(lista):
@@ -143,19 +142,24 @@ precios_cafe = [('capuchino', 1.5),('Expresso',1.2),('Moka',1.9)]
 
 #Mexcla de argumentos directos, *args, *kwargs
 
-def mexcla(num1,num2,*args,**kwargs):
+# def mexcla(num1,num2,*args,**kwargs):
     
-    print(f'El valor num1 es: {num1}')
-    print(f'El valor nu21 es: {num2}')
+#     print(f'El valor num1 es: {num1}')
+#     print(f'El valor nu21 es: {num2}')
 
-    for arg in args:
-        print(f"arg = {arg}")
-    for clave,valor in kwargs.items():
-        print (f"{clave} = {valor}")
+#     for arg in args:
+#         print(f"arg = {arg}")
 
-mexcla(15,21,44,56,72,84, x=6, m=8)
+#     for clave,valor in kwargs.items():
+#         print (f"{clave} = {valor}")
 
-argumentos = [44,56,72,84]
-keyargs = {'x':6, 'm':8}
+# mexcla(15,21,44,56,72,84, x=6, m=8)
 
-mexcla(15,21,*argumentos, **keyargs)
+# argumentos = [44,56,72,84]
+# keyargs = {'x':6, 'm':8}
+
+# mexcla(15,21,*argumentos, **keyargs)  #Se puede llamar con args y kwargs ya definidos
+
+lista= list((5,8,10,25,-95))
+print(lista)
+
