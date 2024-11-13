@@ -31,7 +31,11 @@ cliente = {'nombre': 'Manolo',
 pelicula = {'titulo': 'Matrix',
             'ficha':{'protagonista': 'Keano Reave',
                      'director': 'Lana y Lilly Wachowski'}}
+<<<<<<< HEAD
 elementos = [cliente, pelicula, 'libro']
+=======
+elementos = [cliente, pelicula, 'libro',55]
+>>>>>>> ec56d65e261b41a4f790831640bc28439029a595
 
 for e in elementos: 
     match e:
