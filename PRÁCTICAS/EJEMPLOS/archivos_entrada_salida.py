@@ -1,4 +1,4 @@
-mi_archivo = open('prueba.txt') 
+mi_archivo = open('prueba.txt', ) 
 
 # print(mi_archivo) #muestra el formato del archivo, no el archivo
 
@@ -8,7 +8,7 @@ mi_archivo = open('prueba.txt')
 
 #READLINE
 
-# print(mi_archivo.readline()) #Solo imprime una línea a medida que se ejecuta va leyendo las siguientes líneas
+# print(mi_archivo.readline(), end='') #Solo imprime una línea a medida que se ejecuta va leyendo las siguientes líneas
 # print(mi_archivo.readline().rstrip()) #Podemos quitar el salto de línea del archivo con rstrip()
 # print(mi_archivo.readline().upper())  #Son string por lo que podemos utilizar los métodos de string, como upper()
 
@@ -19,7 +19,7 @@ mi_archivo = open('prueba.txt')
 
 #READLINES: Crea una lista con todas las líneas. No se aconseja para archivos muy grandes. 
 
-print(mi_archivo.readlines())
+# print(mi_archivo.readlines())
 
 #No hemos modificado el archivo original. Sólo hemos trabajado con él. 
 

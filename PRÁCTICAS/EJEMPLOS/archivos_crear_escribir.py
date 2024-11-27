@@ -6,18 +6,20 @@
 
 #CREAR Y SOBREESCRIBIR 'w'
 
-archivo = open('prueba1.txt', 'w')  #Crea un nuevo archivo
+archivo = open('prueba5.txt', 'w')  #Crea un nuevo archivo
 
-archivo.write('Soy el nuevo archivo')
-archivo.write('Soy el nuevo archivo sobreescrito') #No añade sato de línea. Podemos añadirlo con \n o con triple comilla """ """
+# archivo.write("""Soy el nuevo archivo texto sobreescrito 
+#               segunda línea
+#               tercera""")
+# archivo.write('Soy el nuevo archivo sobreescrito') #No añade sato de línea. Podemos añadirlo con \n o con triple comilla """ """
 
 #Si volvemos a aplicar un write en otra ejecución sobreescribe. 
 
 #CREAR Y ESCRIBIR AL FINAL 'a'
 
-archivo2 = open('prueba2.txt', 'a')
+archivo2 = open('prueba6.txt', 'a')
 
-archivo2.write('bienvenido')
+archivo2.write('añadiendo en nueva ejecución')
 
 
 

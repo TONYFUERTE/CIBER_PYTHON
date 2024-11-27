@@ -16,15 +16,21 @@ class Pajaro:
     def pintar_negro(self):       #Métodos de instancia. Acceden y modifican atributos del objeto
         self.color = 'negro'
         print(f"Ahora el pájaro es {self.color}")
+     
+#MÉTODOS DE CLASE   
+    @classmethod
+    def poner_huevos(cls, cantidad):
+        print(f"Puso {cantidad} huevos")
+        cls.alas = False      #Si puedes cambiar los atributos de clase
+        cls.color = 'Rojo'
+        print(Pajaro.alas, Pajaro.color)
         
-mi_pajaro = Pajaro('negro', 'Tucán')
-print(mi_pajaro.color)
-print(mi_pajaro.especie)
-print(mi_pajaro.alas)
-mi_pajaro.piar()
-mi_pajaro.volar(10)
-
-mi_pajaro.alas = False   #También podemos modificar estados de clase
-print(mi_pajaro.alas)
-
-print(f'Mi pajaro es un {mi_pajaro.especie} y su color es {mi_pajaro.color}')
+#MÉTODOS ESTÁTICOS. No pueden modificar los atributos de una instancia ni de una clase.
+    @staticmethod
+    def mirar():
+        print('El pájaro mira')
+        
+    
+Pajaro.poner_huevos(3)
+# Pajaro.piar() #No se puede hacer con los otros métodos. 
+Pajaro.mirar()
