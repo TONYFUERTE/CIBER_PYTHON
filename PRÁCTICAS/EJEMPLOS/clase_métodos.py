@@ -22,7 +22,7 @@ class Pajaro:
     def poner_huevos(cls, cantidad):
         print(f"Puso {cantidad} huevos")
         cls.alas = False      #Si puedes cambiar los atributos de clase
-        cls.color = 'Rojo'
+        # cls.color = 'Rojo'    #No tiene sentido cambiar los atributos de instancia
         print(Pajaro.alas, Pajaro.color)
         
 #MÉTODOS ESTÁTICOS. No pueden modificar los atributos de una instancia ni de una clase.
