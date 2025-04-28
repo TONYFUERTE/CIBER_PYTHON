@@ -16,6 +16,7 @@ class Nieto(Hijo):
     pass
 
 mi_nieto = Nieto()
-print(mi_nieto.hablar())
-print(Nieto.__mro__) #method order resolution
+mi_nieto.hablar()
+# print(mi_nieto.reir())
+# print(Nieto.__mro__) #method order resolution
 
